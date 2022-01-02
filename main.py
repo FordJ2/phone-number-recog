@@ -13,7 +13,7 @@ client = ComputerVisionClient(
     credentials=credentials
 )
 
-### start a live video feed
+### start a live video feed with (mac) webcam
 cap = cv2.VideoCapture(0)
 while(True):
     ret, frame = cap.read()
